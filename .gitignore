@@ -1,0 +1,32 @@
+# Build directories
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Test videos (large files)
+test_videos/*.mp4
+test_videos/*.avi
+test_videos/*.mov
+!test_videos/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
