@@ -7,6 +7,7 @@ Display::Display()
       width(0), height(0) {
 }
 
+// cleanup
 Display::~Display() {
     cleanup();
 }
